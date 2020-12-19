@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>邢台风景</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<style type="text/css">
+        .imgBox{
+            border-top: 2px solid cadetblue;
+            width: 90%;
+            height: 500px;
+            margin: 0 auto;
+
+        }
+
+        .imgBox img{
+            width: 100%;
+            height: 480px;
+            margin: 0 auto;
+            padding-top: 30px;
+
+        }
+
+        .img1{
+            display: block;
+        }
+
+        .img2{
+            display: none;
+        }
+
+        .img3{
+            display: none;
+        }
+
+        .content{
+        	height: 3000px;
+        	font-size: 17px;
+    	}
+    	.toTop{
+        	width:160px;
+        	height: 30px;
+        	position: fixed;
+        	right: 20px;
+        	bottom: 20px;
+        	font-size: 20px;
+        	font-family: "微软雅黑";
+        	font-weight: bold;
+        	letter-spacing: 5px;
+        	display: none;
+    	}
+    </style>
+</head>
+<body onload="countTime()">
+	<div class="imgBox">
+    	<img class="img-slide img1" src="images/s1.jpg" alt="1">
+    	<img class="img-slide img2" src="images/s2.jpg" alt="2">
+    	<img class="img-slide img3" src="images/s3.jpg" alt="3">
+
+	</div>
+	</div>
+	
+	<div class="search">
+		<form action="">
+			<div class="ssk2">
+				<label for="search" class=""><img class="img1" src="images/search.png" alt="" /></label>
+				<input class="ssk" type="text" name="wd" id="search" placeholder="请输入要搜索的旅游线路">
+				<button class="bdyx">
+					<b>搜索</b>
+				</button>
+			</div>
+		</form>
+	</div>
+    <section id="content">
+        <section class="hemai_jx">
+            <div class="jx_top">
+                <div class="jx_tit">
+                    <img src="images/icon_5.jpg" alt="">
+                    <span>邢台游</span>
+                </div>
+                <!-- Nav tabs -->
+                <ul class="jx_tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人气</span>
+                        <a href="#popularity" aria-controls="popularity" role="tab" data-toggle="tab"></a>
+                    </li>
+                    <li role="presentation">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最新</span>
+                        <a href="#newest" aria-controls="newest" role="tab" data-toggle="tab"></a>
+                    </li>
+                    <li role="presentation">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;快速登录</span>
+                        <a href="#theme" aria-controls="theme" role="tab" data-toggle="tab"></a>
+                    </li>
+					<li role="presentation">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注册</span>
+                        <a href="#theme" aria-controls="theme" role="tab" data-toggle="tab"></a>
+                    </li>
+                </ul>
+            </div>
+			
+            <div class="jx_content">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="popularity">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan2.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan3.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan4.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="newest">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/images/jingxuan.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/images/jingxuan2.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan3.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan4.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="theme">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan.jpgg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="javascript:;">
+                                    <img src="images/jingxuan.jpg" alt="">
+                                    <div class="has_border">
+                                        <h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+                                        <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <section class="hemai_jx">
+            <div class="jx_top">
+                <div class="jx_tit">
+                    <img src="images/icon_6.jpg" alt="">
+                    <span>国内游</span>
+                </div>
+            </div>
+            <div class="heima_gn">
+                <div class="guonei_l">
+                    <img src="images/guonei_1.jpg" alt="">
+                </div>
+                <div class="guone_r">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="route_detail.html">
+								<img src="images/jingxuan.jpg" alt="">
+								<div class="has_border">
+									<h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+									<div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>									
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail.html">
+								<img src="images/jingxuan.jpg" alt="">
+								<div class="has_border">
+									<h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+									<div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>									
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail.html">
+								<img src="images/jingxuan.jpg" alt="">
+								<div class="has_border">
+									<h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+									<div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>									
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail.html">
+								<img src="images/jingxuan.jpg" alt="">
+								<div class="has_border">
+									<h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+									<div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>									
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail.html">
+									<img src="images/jingxuan.jpg" alt="">
+								<div class="has_border">
+									<h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+									<div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>									
+								</div>
+							</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="route_detail.html">
+								<img src="images/jingxuan4.jpg" alt="">
+								<div class="has_border">
+									<h3>邢台5天4晚自由行(春节预售+亲子/蜜月/休闲游首选+豪华酒店任选+接送机)</h3>
+									<div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>									
+								</div>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+	<hr/>
+	<p class="banquan">Copyright 版权所有：邢台游有限公司 地址：邢台市桥西区第一街道 邮编：10086 电话：66668888</p>
+	<div>
+    	<p>距离2021年还有：<span id="_d">00</span>
+        <span id="_h">00</span>
+        <span id="_m">00</span>
+        <span id="_s">00</span></p>
+    </div>
+	<input type="button" id="toTop" class="toTop" value="返回顶部↑">
+	
+	<script type="text/javascript">
+		
+		function getDate(){
+			var date = new Date();
+			var date1 = date.toLocaleString();
+        	var div1 = document.getElementById("times");
+	    	div1.innerHTML = date1;
+        }
+		setInterval("getDate()",1000);
+
+		function promptDialog(){
+			var sPrompt = window.prompt('您对这个城市满意吗');
+			console.log(sPrompt)
+		}
+
+		var index=0;
+    
+    	function ChangeImg() {
+        	index++;
+        	var a=document.getElementsByClassName("img-slide");
+        	if(index>=a.length) 
+        		index=0;
+        	for(var i=0;i<a.length;i++){
+            	a[i].style.display='none';
+        	}
+        	a[index].style.display='block';
+    	}
+    
+    	setInterval(ChangeImg,2000);
+
+    	window.addEventListener("load",function(){
+
+        	var toTop = document.getElementById("toTop");   
+        	var posY = 0;
+
+        window.addEventListener("scroll",function(){
+            posY = window.pageYOffset || document.documentElement.scrollTop;
+
+            if(posY == 0){
+                toTop.style.display = "none";
+            }else{
+                toTop.style.display = "block"
+            }
+        })
+
+        toTop.addEventListener("click",function(){
+
+            var des = 0;
+            var start = posY;
+
+            	moveSlowly(start,des);
+        	})
+
+    	})
+
+        var timer = null;
+        function moveSlowly(start,des,time){
+        	clearInterval(timer);
+        	var speedTime = time || 100;
+        	var distance = des - start;
+        	var speed = distance/speedTime;
+        	var pos = start;
+        	var i = 1;
+
+        	timer = setInterval(function(){
+
+        		if(i == speedTime){
+            		document.documentElement.scrollTop = document.body.scrollTop = des;
+            		clearInterval(timer);
+        		}else{
+            		pos = pos + speed;
+            		document.documentElement.scrollTop = document.body.scrollTop = pos;
+            		i++;
+        		}
+
+    		},1)
+		}
+
+		function countTime() {
+            //获取当前时间
+            var date = new Date();
+            var now = date.getTime();
+            //设置截止时间
+            var str="2020/12/31 00:00:00";
+            var endDate = new Date(str);
+            var end = endDate.getTime();
+
+            //时间差
+            var leftTime = end-now;
+            //定义变量 d,h,m,s保存倒计时的时间
+            var d,h,m,s;
+            if (leftTime>=0) {
+                d = Math.floor(leftTime/1000/60/60/24);
+                h = Math.floor(leftTime/1000/60/60%24);
+                m = Math.floor(leftTime/1000/60%60);
+                s = Math.floor(leftTime/1000%60);
+            }
+            //将倒计时赋值到div中
+            document.getElementById("_d").innerHTML = d+"天";
+            document.getElementById("_h").innerHTML = h+"时";
+            document.getElementById("_m").innerHTML = m+"分";
+            document.getElementById("_s").innerHTML = s+"秒";
+            //递归每秒调用countTime方法，显示动态时间效果
+            setTimeout(countTime,1000);
+        }
+	</script>
+</body>
+</html>
